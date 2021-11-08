@@ -94,7 +94,9 @@ Following identifiers are defined and their respective purpose is also mentioned
 $1  Section Heading
 $2  Section Sub-heading
 $D  Section Description
-$B  Section Background (Image file - full path with extension)
+$QT Motivational Quotation Text
+$QB Motivational Quotation Author
+$BG Section Background Image File - full path with extension
 
 ```
 
