@@ -33,8 +33,10 @@ Each identifier, whenever & wherever placed, will mark beginning of a specific p
 Following identifiers are defined and their respective purpose is also mentioned (replace ID with number):
 
 
-```python
+```
+
 @Major ID Title
+
 ```
 
 > Defines Major Group that contains one or many Minor Groups (with same Major ID).
@@ -50,8 +52,10 @@ Following identifiers are defined and their respective purpose is also mentioned
 > **Title** should be used only once in all the files, otherwise it will be picked up from first occurrence.
 
 
-```python
+```
+
 @Minor ID Title
+
 ```
 
 > Defines Minor Group that contains one or many Sections under same Minor ID.
@@ -59,15 +63,19 @@ Following identifiers are defined and their respective purpose is also mentioned
 > This identifier is intended to group same kind of sections under a single group, no matter the number of files they are scattered in.
 
 
-```python
+```
+
 @Section ID Title
+
 ```
 
 > Defines Section that contains one or many Pages under same Section ID.
 
 
-```python
+```
+
 @Page ID Title
+
 ```
 
 > Defines Page that contains content.
