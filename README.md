@@ -13,11 +13,11 @@ Documentation is required to be generated in "pure" text files. So as to bring a
 ---
 ---
 
-## Ligibility Consideration
+## Legibility Consideration
 
 **White-space**: For the purpose of this documentation, any combination of spaces (ASCII **32**) and tabs (ASCII **9**) are defined as white-space.
 
-**Blank lines**: Blank lines are defined as text lines having zero or more white-spaces only. Blank lines will be ignored for the purpose of documentation generation, they are here only to serve the purpose of ligibility.
+**Blank lines**: Blank lines are defined as text lines having zero or more white-spaces only. Blank lines will be ignored for the purpose of documentation generation, they are here only to serve the purpose of legibility.
 
 **Comments**: Lines starting with Tilde (**~**) will be regarded as blank lines, as Tilde being first non-white-space letter will make any line a comment and will be ignored in final output.
 
