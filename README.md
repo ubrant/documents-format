@@ -10,7 +10,7 @@ Documentation is required to be generated in "pure" text files. So as to bring a
 > * nano
 > * Sublime Text
 
----
+
 
 ## Legibility Consideration
 
@@ -20,7 +20,7 @@ Documentation is required to be generated in "pure" text files. So as to bring a
 
 **Comments**: Lines starting with Tilde (**~**) will be regarded as blank lines, as Tilde being first non-white-space letter will make any line a comment and will be ignored in final output.
 
----
+
 
 ## Identifiers
 
@@ -42,12 +42,16 @@ Following identifiers are defined and their respective purpose is also mentioned
 > 
 > It means that any content coming after this identifier (in current file) has to be grouped with content that might be in some other file but having same ID.
 > 
-> **Title** should be used only once in all the files, otherwise it will be picked up from first occurrence.
-> 
 > For standardization and to avoid collission (as of now), following Major IDs are assigned:
+> 
 >> IDs **100000** till **199999** are reserved for **non-technical groups**
 >> 
 >> IDs **200000** till **299999** are reserved for **technical groups**
+>
+> **Title** should be used only once in all the files, otherwise it will be picked up from first occurrence.
+
+
+
 
 ```
 
@@ -79,7 +83,7 @@ Following identifiers are defined and their respective purpose is also mentioned
 > 
 > This identifier will allow sorting of pages in ascending order.
 
----
+
 
 ## Content / Data
 
