@@ -245,22 +245,17 @@ Parameters' description is as follows:
 >> Explanation ↦ To describe about correct option
 
 Following is an example of defining a question:
-> 
-> @Question
-> 
-> #Difficulty: 0
-> 
-> #Text: Did Christopher Columbus invent America?
-> 
-> #OptA: True
-> 
-> #OptB: False
-> 
-> #Attempts: 1
-> 
-> #Answer: B
-> 
-> #Explanation: America was there to be discovered, not to be invented by any human-being
+
+```
+@Question
+    #Difficulty: 0
+    #Text: Did Christopher Columbus invent America?
+    #OptA: True
+    #OptB: False
+    #Attempts: 1
+    #Answer: B
+    #Explanation: America was there to be discovered, not to be invented by any human-being
+```
 
 >> If any text or other material is present on a page before or after the question, it will be dealt with as a separate entity -- not mixed with question itself
 
