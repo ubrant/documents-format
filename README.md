@@ -181,7 +181,17 @@ There are two types of links allowed for documentation purposes. First is any UR
 :Link-Site:[TEXT][HINT](Major-ID, Minor-ID, Section-ID, Page-ID)
 ```
 
-In second format, all elements are optional except TEXT, but when present they should be in specified sequence separated with commas.
+>> In second format, all elements are optional except TEXT, but when present they should be in specified sequence separated with commas.
+
+Links can be placed anywhere inside text elements, as only TEXT will be placed alongside other text in regular flow of document content.
+
+---
+
+## Questions
+
+In order to test knowledge, user can be asked to answer questions at any time.
+
+-- FORMAT TO BE DECIDED --
 
 ---
 
