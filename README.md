@@ -133,7 +133,7 @@ Headings denoting symbols should be at the beginning of any line, otherwise, the
 **Para:** symbol at the beginning of any line will denote beginning of paragraph. Whereby, all subsequent lines will be joined into one paragraph till any other element's symbol or next paragraph symbol for segregation.
 
 
-### Bold-faced Text
+#### Bold-faced Text
 
 For making text bold-faced within paragraphs enclosed it within **Curly Braces** like **{text}**.
 
@@ -146,7 +146,7 @@ For making text bold-faced within paragraphs enclosed it within **Curly Braces**
 >> This is a **bold-faced** text
 
 
-### Italicized Text
+#### Italicized Text
 
 For making text italicized within paragraphs enclose it within **Square Brackets** like **\[text\]**.
 
@@ -159,16 +159,6 @@ For making text italicized within paragraphs enclose it within **Square Brackets
 >> This is an _italicized_ text
 
 
-### Underlined Text
-
-For making text underlined within paragraphs, start specific portion with an Underscore (**\_**) symbol and end underlining with the same symbol. Use **\_\_** (double Underscore) to insert an Underscore within text.
-
-
-### Strike-through Text
-
-For making text striked-through within paragraphs, start specific portion with a Hyphen (**-**) symbol and end cutting with the same symbol. Use **--** (double Hyphen) to insert a Hyphen within text.
-
-
 ### Images
 
 To attach images, following format is required, at the beginning of any line:
@@ -177,15 +167,19 @@ To attach images, following format is required, at the beginning of any line:
 %IM[Caption](full path with file extension)
 ```
 
+If only image file name with extension is provided then same directory as documentation file will be used for picking-up the image.
+
 
 ### Links
 
-There are two types of links allowed for documentation purposes. First is any URL (e.g., https://ubrant.com), and the second one is to point towards documentation parts. Hence following formats are supported (in second format, all elements are optional except TEXT and Annotation, but when present they should be in specified sequence separated with commas):
+There are two types of links allowed for documentation purposes. First is any URL (e.g., https://ubrant.com), and the second one is to point towards documentation parts. Hence following formats are supported:
 
 ```
 %L1[TEXT][Annotation](URL)
 %L2[TEXT][Annotation](Major-ID, Minor-ID, Section-ID, Page-ID)
 ```
+
+In second format, all elements are optional except TEXT, but when present they should be in specified sequence separated with commas.
 
 ---
 
