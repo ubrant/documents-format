@@ -232,17 +232,23 @@ Questions can be mixed with normal flow of document, and can be separated in dif
 
 Parameters' description is as follows:
 
->> Difficulty Level ID ⟾ **0** = Easy, **1** = Medium, **2** = Hard
->> 
->> Question Text ⟾ Question
->> 
->> Option "-" Text ⟾ Text that will appear at the option, blank text will disappear option
->> 
->> Number of Allowed Attempts ⟾ Number (**1** if repeated attempts are not allowed)
->> 
->> Correct Option ⟾ Option (e.g., **B** if Option B is correct)
->> 
->> Explanation ⟾ To describe about correct option
+> Difficulty Level ID
+>> ⟾ **0** = Easy, **1** = Medium, **2** = Hard
+
+> Question Text
+>> ⟾ Question being asked
+
+> Option "-" Text
+>> ⟾ Text to display as option, blank text will disappear option
+
+> Number of Allowed Attempts
+>> ⟾ Number (e.g., **1** if repetition is not allowed)
+
+> Correct Option
+>> ⟾ Option (e.g., **B** if Option B is correct)
+
+> Explanation
+>> ⟾ To describe about correct option
 
 Following is an example of defining a question:
 
