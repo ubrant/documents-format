@@ -101,12 +101,12 @@ Following identifiers are defined and their respective purpose is also mentioned
 Following format is allowed for formatting section start:
 
 ```
-$H1 Section Heading
-$H2 Section Sub-heading
-$DT Section Description Text
-$QT Motivational Quotation Text
-$QB Motivational Quotation Author
-$BG Section Background Image File - full path with extension
+$H1: Section Heading
+$H2: Section Sub-heading
+$DT: Section Description Text
+$QT: Motivational Quotation Text
+$QB: Motivational Quotation Author
+$BG: Section Background Image File - full path with extension
 ```
 
 >> If full path to image file is not provided (i.e., only file name with extension is provided) then directory of documentation file will be used for picking-up the image
@@ -119,12 +119,12 @@ Section denoting symbol should be at the beginning of a line, otherwise, the sec
 Following heading formats are allowed to define headings of various levels:
 
 ```
-#H1  Heading Text - Biggest Heading
-#H2  Heading Text
-#H3  Heading Text
-#H4  Heading Text
-#H5  Heading Text
-#H6  Heading Text - Smallest Heading
+#H1: Heading Text - Biggest Heading
+#H2: Heading Text
+#H3: Heading Text
+#H4: Heading Text
+#H5: Heading Text
+#H6: Heading Text - Smallest Heading
 ```
 
 Headings denoting symbols should be at the beginning of any line, otherwise, they will be ignored. However, white-spaces are allowed before them.
@@ -132,7 +132,15 @@ Headings denoting symbols should be at the beginning of any line, otherwise, the
 
 ### Paragraphs
 
-"**Para:**" symbol at the beginning of any line will denote beginning of paragraph. Whereby, all subsequent lines will be joined into one paragraph till any other element's symbol or next paragraph symbol for segregation.
+"**#Para:**" at beginning of any line will denote starting a paragraph. Whereby, all subsequent lines will be joined into one paragraph till any other element's symbol or next paragraph symbol for segregation.
+
+> For example:
+> 
+>> #Para: This is some paragraph text
+> 
+> will be displayed as
+> 
+>> This is some paragraph text
 
 
 #### Bold-faced Text
@@ -141,47 +149,60 @@ For making text bold-faced within paragraphs enclose it within **Curly Braces** 
 
 > For example:
 > 
->> Para: This is a {bold-faced} text
+>> #Para: This is some {bold-faced} text
 > 
 > will be displayed as
 > 
->> This is a **bold-faced** text
+>> This is some **bold-faced** text
 
 
 #### Italicized Text
 
-For making text italicized within paragraphs enclose it within **Square Brackets** like **\[text\]**.
+For making text italicized within paragraphs enclose it between **Forward Slashes** like **/text/**.
 
 > For example:
 > 
->> Para: This is an \[italicized\] text
+>> #Para: This is some /italicized/ text
 > 
 > will be displayed as
 > 
->> This is an _italicized_ text
+>> This is some _italicized_ text
 
 
 ### Images
 
-To attach images, following format is required, at the beginning of any line:
+To attach images, following format is required, at beginning of any line:
 
 ```
-Image:[Caption](full path with file name and extension)
+#Image: [Caption Text](full path with file name and extension)
 ```
 
-If only image file name with extension is provided then same directory as documentation file will be used for picking-up the image.
+>> When only image file name with extension is provided then same directory as documentation file will be used for picking-up the image
 
 
 ### Links
 
-There are two types of links allowed for documentation purposes. First is any URL (e.g., https://ubrant.com), and the second one is to point towards documentation parts. Hence following formats are supported:
+There are two types of links allowed for documentation purposes:
+
+* First is any URL (e.g., https://ubrant.com), and
+* The second one is intended to point towards documentation parts.
+
+Hence following formats are supported:
 
 ```
 :Link-URL:[TEXT][HINT](URL)
 :Link-Site:[TEXT][HINT](Major-ID, Minor-ID, Section-ID, Page-ID)
 ```
 
->> In second format, all elements are optional except TEXT, but when present they should be in specified sequence separated with commas.
+>> In second format, all elements are optional except TEXT, but when present they should be in specified sequence separated with commas
+
+> For example:
+> 
+>> #Para: Click :Link-URL:\[here\]\[here\](https://ubrant.com) for learning amazing things
+> 
+> will be displayed as
+> 
+>> Click [here](https://ubrant.com) for learning amazing things
 
 Links can be placed anywhere inside text elements, as only TEXT will be placed alongside other text in regular flow of document content.
 
