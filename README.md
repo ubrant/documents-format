@@ -135,7 +135,7 @@ Headings denoting symbols should be at the beginning of any line, otherwise, the
 
 ### Bold-faced Text
 
-For making text bold-faced within paragraphs enclosed it within **curly braces {text}**.
+For making text bold-faced within paragraphs enclosed it within **Curly Braces** like **{text}**.
 
 > For example:
 > 
@@ -148,7 +148,15 @@ For making text bold-faced within paragraphs enclosed it within **curly braces {
 
 ### Italicized Text
 
-For making text italicized within paragraphs, start specific portion with a Forward Slash (**/**) symbol and end italicizing with the same symbol. Use **//** to insert a Forward Slash in text.
+For making text italicized within paragraphs enclose it within **Square Brackets** like **\[text\]**.
+
+> For example:
+> 
+>> Para: This is an \[italicized\] text
+> 
+> will be displayed as
+> 
+>> This is an _italicized_ text
 
 
 ### Underlined Text
