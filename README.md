@@ -137,7 +137,7 @@ Headings denoting symbols should be at the beginning of any line, otherwise, the
 
 #### Bold-faced Text
 
-For making text bold-faced within paragraphs enclosed it within **Curly Braces** like **{text}**.
+For making text bold-faced within paragraphs enclose it within **Curly Braces** like **{text}**.
 
 > For example:
 > 
