@@ -254,7 +254,7 @@ Following is an example of defining a question:
     #OptB: False
     #Attempts: 1
     #Answer: B
-    #Explanation: America was there to be discovered, not to be invented by any human-being
+    #Explanation: America was there to be discovered, not to be invented by any humanbeing
 ```
 
 >> If any text or other material is present on a page before or after the question, it will be dealt with as a separate entity -- not mixed with question itself
