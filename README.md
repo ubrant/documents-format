@@ -164,7 +164,7 @@ For making text italicized within paragraphs enclose it within **Square Brackets
 To attach images, following format is required, at the beginning of any line:
 
 ```
-%IM[Caption](full path with file extension)
+Image:[Caption](full path with file name and extension)
 ```
 
 If only image file name with extension is provided then same directory as documentation file will be used for picking-up the image.
@@ -175,8 +175,8 @@ If only image file name with extension is provided then same directory as docume
 There are two types of links allowed for documentation purposes. First is any URL (e.g., https://ubrant.com), and the second one is to point towards documentation parts. Hence following formats are supported:
 
 ```
-%L1[TEXT][Annotation](URL)
-%L2[TEXT][Annotation](Major-ID, Minor-ID, Section-ID, Page-ID)
+:Link-URL:[TEXT][HINT](URL)
+:Link-Site:[TEXT][HINT](Major-ID, Minor-ID, Section-ID, Page-ID)
 ```
 
 In second format, all elements are optional except TEXT, but when present they should be in specified sequence separated with commas.
