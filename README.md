@@ -210,9 +210,59 @@ Links can be placed anywhere inside text elements, as only TEXT will be placed a
 
 ## Questions
 
-In order to test knowledge, user can be asked to answer questions at any time.
+Testing of user's knowledge can be done by requiring to answer questions at any time. For this purpose, following format is supported **inside a Page**:
 
--- FORMAT TO BE DECIDED --
+```
+@Question
+    #Difficulty: Difficulty Level ID
+    #Text: Question Text
+    #OptA: Option "A" Text
+    #OptB: Option "B" Text
+    #OptC: Option "C" Text (Optional)
+    #OptD: Option "D" Text (Optional)
+    #OptE: Option "E" Text (Optional)
+    #OptF: Option "F" Text (Optional)
+    #OptG: Option "G" Text (Optional)
+    #Attempts: Number of Allowed Attempts
+    #Answer: Correct Option
+    #Explanation: Text to Describe the Correct Option
+```
+
+Questions can be mixed with normal flow of document, and can be separated in different dedicated pages - thereby, will be sorted per page identifiers.
+
+Parameters' description is as follows:
+
+>> Difficulty Level ID ↦ **0** = Easy, **1** = Medium, **2** = Hard
+>> 
+>> Question Text ↦ Question
+>> 
+>> Option "--" Text ↦ Text that will appear at the option, blank text will disappear option
+>> 
+>> Number of Allowed Attempts ↦ Number (**1** if repeated attempts are not allowed)
+>> 
+>> Correct Option ↦ Option (e.g., **B** if Option B is correct)
+>> 
+>> Explanation ↦ To describe about correct option
+
+Following is an example of defining a question:
+> 
+> @Question
+> 
+> #Difficulty: 0
+> 
+> #Text: Did Christopher Columbus invent America?
+> 
+> #OptA: True
+> 
+> #OptB: False
+> 
+> #Attempts: 1
+> 
+> #Answer: B
+> 
+> #Explanation: America was there to be discovered, not to be invented by any human-being
+
+>> If any text or other material is present on a page before or after the question, it will be dealt with as a separate entity -- not mixed with question itself
 
 ---
 
