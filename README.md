@@ -135,7 +135,11 @@ Colon (**:**) symbol at the beginning of any line will denote beginning of parag
 
 ### Bold-faced Text
 
-For making text bold-faced within paragraphs, start specific portion with an Aesterisk (**\***) symbol and end bold with the same symbol. Use **\*\*** to insert an Aesterisk in text.
+For making text bold-faced within paragraphs, start bold-facing with **&start-bold;** and end bold-facing with **&end-bold;**.
+
+> For example: This is a &start-bold;bold&end-bold; text
+> 
+> it will display as "This is a **bold** text"
 
 
 ### Italicized Text
@@ -158,7 +162,7 @@ For making text striked-through within paragraphs, start specific portion with a
 To attach images, following format is required, at the beginning of any line:
 
 ```
-%IM[Caption](full path with file extension)(Alternate text)
+%IM[Caption](full path with file extension)
 ```
 
 
