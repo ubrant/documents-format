@@ -117,12 +117,12 @@ Section denoting symbol should be at the beginning of a line, otherwise, the sec
 Following heading formats are allowed to define headings of various levels:
 
 ```
-#1  Heading 1 (Biggest)
-#2  Heading 2
-#3  Heading 3
-#4  Heading 4
-#5  Heading 5
-#6  Heading 6 (Smallest)
+#H1  Heading Text - Biggest Heading
+#H2  Heading Text
+#H3  Heading Text
+#H4  Heading Text
+#H5  Heading Text
+#H6  Heading Text - Smallest Heading
 ```
 
 Headings denoting symbols should be at the beginning of any line, otherwise, they will be ignored. However, white-spaces are allowed before them.
@@ -130,16 +130,20 @@ Headings denoting symbols should be at the beginning of any line, otherwise, the
 
 ### Paragraphs
 
-Colon (**:**) symbol at the beginning of any line will denote beginning of paragraph. Whereby, all subsequent lines will be joined into one paragraph till any other element's symbol or next paragraph symbol for segregation.
+**Para:**) symbol at the beginning of any line will denote beginning of paragraph. Whereby, all subsequent lines will be joined into one paragraph till any other element's symbol or next paragraph symbol for segregation.
 
 
 ### Bold-faced Text
 
-For making text bold-faced within paragraphs, start bold-facing with **&sb;** and end bold-facing with **&eb;**.
+For making text bold-faced within paragraphs enclosed it within **curly braces {text}**.
 
-> For example: This is a &sb;bold&eb; text
+> For example:
 > 
-> it will display as "This is a **bold** text"
+>> This is a {bold-faced} text
+> 
+> will be displayed as
+> 
+>> This is a **bold-faced** text
 
 
 ### Italicized Text
