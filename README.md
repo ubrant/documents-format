@@ -33,11 +33,11 @@ Tilde (**~**) being first non-white-space letter on any line will make that line
 
 
 
-## Identifiers
+## Identifiers (IDs)
 
-To achieve late linking across files and content sequencing, numeric identifiers are required to be placed in text files (especially at the beginning of file). These identifiers have to be placed at beginning of lines (leading white-spaces are allowed).
+To provide late linking across files and sequencing content automatically, numeric identifiers are required to be placed in text files; **especially at the beginning of files**. Leading white-spaces as well as any number of white spaces before ID and Title are allowed as long as it's format is followed.
 
-Each identifier, whenever & wherever placed, will mark beginning of a specific portion. Thereby, content can be distributed in separate files and later joined according to these identifiers. Numeric nature of these identifiers will allow automatic sorting of content, thereby _extreme care_ should be taken to avoid collissions amongst same types of identifiers under same levels, because such collissions will produce unpredictable sequencing.
+Each identifier, whenever & wherever placed, will mark beginning of a specific portion. Thereby, content can be distributed in separate files and later joined according to these identifiers. Numeric nature of these identifiers will allow automatic sorting, thereby _extreme care_ is required to avoid collissions amongst same types of identifiers under same levels of hierarchy - such collissions (if any) will produce unpredictable sequencing.
 
 > **For example**, identifier **1** can be given to Minor sections which have different Major section identifiers but should not be given to Minor sections under same Major section.
 
@@ -45,55 +45,51 @@ Following identifiers are defined and their respective purpose is also mentioned
 
 
 ```
-
 @Major ID Title
-
 ```
 
 > Defines Major Group that contains one or many Minor Groups (with same Major ID).
 > 
-> It means that any content coming after this identifier (in current file) has to be grouped with content that might be in some other file but having same ID.
+> It means that any content coming after this identifier (in current file) will be grouped with content that might be in some other file with same ID.
 > 
-> For standardization and to avoid collission (as of now), following Major IDs are assigned:
+> For standardization and to avoid collissions (as of now), following Major IDs are assigned:
 > 
 >> IDs **100000** till **199999** are reserved for **non-technical groups**
 >> 
 >> IDs **200000** till **299999** are reserved for **technical groups**
 >
-> **Title** should be used only once in all the files, otherwise it will be picked up from first occurrence.
+> **Title** should be used only once in all the files for same Major ID, otherwise it will be picked up from first non-blank occurrence.
 
 
 ```
-
 @Minor ID Title
-
 ```
 
 > Defines Minor Group that contains one or many Sections under same Minor ID.
 > 
-> This identifier is intended to group same kind of sections under a single group, no matter the number of files they are scattered in.
+> This identifier is intended to group same kind of sections under a single ID, no matter the number of files they are scattered in.
+>
+> **Title** should be used only once in all the files for same Minor ID, otherwise it will be picked up from first non-blank occurrence.
 
 
 ```
-
 @Section ID Title
-
 ```
 
-> Defines Section that contains one or many Pages under same Section ID.
+> Defines Section that contains one or many Pages under same Section ID - a group of Pages.
+>
+> **Title** should be used only once in all the files for same Section ID, otherwise it will be picked up from first non-blank occurrence.
 
 
 ```
-
 @Page ID Title
-
 ```
 
 > Defines Page that contains content.
 > 
 > **Important!** One page should be completed in one file.
 > 
-> This identifier will allow sorting of pages in ascending order.
+> This identifier will allow sorting of pages in ascending order within a section.
 
 
 
