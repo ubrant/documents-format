@@ -130,7 +130,7 @@ Headings denoting symbols should be at the beginning of any line, otherwise, the
 
 ### Paragraphs
 
-**Para:**) symbol at the beginning of any line will denote beginning of paragraph. Whereby, all subsequent lines will be joined into one paragraph till any other element's symbol or next paragraph symbol for segregation.
+**Para:** symbol at the beginning of any line will denote beginning of paragraph. Whereby, all subsequent lines will be joined into one paragraph till any other element's symbol or next paragraph symbol for segregation.
 
 
 ### Bold-faced Text
@@ -139,7 +139,7 @@ For making text bold-faced within paragraphs enclosed it within **curly braces {
 
 > For example:
 > 
->> This is a {bold-faced} text
+>> Para: This is a {bold-faced} text
 > 
 > will be displayed as
 > 
