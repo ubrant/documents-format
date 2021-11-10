@@ -106,8 +106,10 @@ $H2 Section Sub-heading
 $DT Section Description Text
 $QT Motivational Quotation Text
 $QB Motivational Quotation Author
-$BG Section Background Image File - full path with extension (otherwise same directory will be used for full file name)
+$BG Section Background Image File - full path with extension
 ```
+
+>> If full path to image file is not provided (i.e., only file name with extension is provided) then directory of documentation file will be used for picking-up the image
 
 Section denoting symbol should be at the beginning of a line, otherwise, the section symbol will be ignored. However, white-spaces are allowed before section symbol.
 
