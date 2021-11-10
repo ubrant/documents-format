@@ -1,14 +1,22 @@
 # Documentation Format
 
-Documentation is required to be generated in "pure" text files. So as to bring about uniformity, auto generation of documentation, and later application of themes throughout the documentation. Files with extension "**.ubd**" can be placed under any directory structure (with same parent directory). Only the described format will be desired to produce valid documentation pages. Therefore, Word Editors like Microsoft Word and Wordpad, that generate formatted binary / formatted files are not allowed. Following are a few examples of text editors that can be used for this purpose:
+Documentation is required to be written in **pure text files** with **specific format**, so as to enforce uniformity, use auto-generation of HTML, and later application of themes throughout the documentation.
+
+For easy management, supporting files can be kept with documentation. Thereby, auto-segregation of documentation files from others requires that documentation files be identified with file extension **.ubd** (for example: summary.ubd).
+
+Files can be placed under any directory structure inside the same parent directory.
+
+Only the described format will be enough to produce valid documentation pages.
+
+Since, only **pure / plain text files** are required; Word Editors like _Microsoft Word_ and _Word-Pad_ are **not allowed** because they store text files in formatted binary / other formats. Following are a few examples of text editors that can be used for this purpose:
 
 > * Notepad
-> * Notepad++
-> * VS Code
+> * [Notepad++](https://notepad-plus-plus.org/downloads/)
+> * [VS Code](https://code.visualstudio.com/Download)
 > * vim
 > * gedit
 > * nano
-> * Sublime Text
+> * [Sublime Text](https://www.sublimetext.com/)
 
 
 
