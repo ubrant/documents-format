@@ -93,63 +93,82 @@ Following identifiers are defined and their respective purpose is also mentioned
 
 
 
-## Content / Data
+## Content / Data Format
 
-**Sections**: Following format is required to be used for forming section start:
+
+### Sections
+
+Following format is allowed for formatting section start:
 
 ```
-
-$1  Section Heading
-$2  Section Sub-heading
-$D  Section Description
+$H1 Section Heading
+$H2 Section Sub-heading
+$DT Section Description Text
 $QT Motivational Quotation Text
 $QB Motivational Quotation Author
-$BG Section Background Image File - full path with extension
-
+$BG Section Background Image File - full path with extension (otherwise same directory will be used for full file name)
 ```
 
-Section denoting symbol should be at the beginning of a line, otherwise, the section symbol will be ignored. However, white-spaces are allowed before section sybmol.
+Section denoting symbol should be at the beginning of a line, otherwise, the section symbol will be ignored. However, white-spaces are allowed before section symbol.
 
-**Headings**: Following heading formats are required being used for headings of various levels:
+
+### Headings
+
+Following heading formats are allowed to define headings of various levels:
 
 ```
-
-#1  Heading Level 1 (Biggest)
-#2  Heading Level 2
-#3  Heading Level 3
-#4  Heading Level 4
-#5  Heading Level 5
-#6  Heading Level 6 (Smallest)
-
+#1  Heading 1 (Biggest)
+#2  Heading 2
+#3  Heading 3
+#4  Heading 4
+#5  Heading 5
+#6  Heading 6 (Smallest)
 ```
 
 Headings denoting symbols should be at the beginning of any line, otherwise, they will be ignored. However, white-spaces are allowed before them.
 
-**Paragraphs**: Colon (**:**) symbol at the beginning of any line will denote start of paragraph. Whereby, all subsequent lines will be joined into one paragraph till the availability of any other element's symbol or next paragraph symbol for segregation.
 
-**Bold-faced Text**: For making text bold-faced within paragraphs, start specific portion with an Aesterisk (**\***) symbol and end bold with the same symbol. Use **\*\*** to insert an Aesterisk in text.
+### Paragraphs
 
-**Italicized Text**: For making text italicized within paragraphs, start specific portion with a Forward Slash (**/**) symbol and end italicizing with the same symbol. Use **//** to insert a Forward Slash in text.
+Colon (**:**) symbol at the beginning of any line will denote beginning of paragraph. Whereby, all subsequent lines will be joined into one paragraph till any other element's symbol or next paragraph symbol for segregation.
 
-**Underlined Text**: For making text underlined within paragraphs, start specific portion with an Underscore (**\_**) symbol and end underlining with the same symbol. Use **\_\_** (double Underscore) to insert an Underscore within text.
 
-**Strike-through Text**: For making text striked-through within paragraphs, start specific portion with a Hyphen (**-**) symbol and end cutting with the same symbol. Use **--** (double Hyphen) to insert a Hyphen within text.
+### Bold-faced Text
 
-**Images**: In order to attach images, following format is required, at the beginning of any line:
+For making text bold-faced within paragraphs, start specific portion with an Aesterisk (**\***) symbol and end bold with the same symbol. Use **\*\*** to insert an Aesterisk in text.
+
+
+### Italicized Text
+
+For making text italicized within paragraphs, start specific portion with a Forward Slash (**/**) symbol and end italicizing with the same symbol. Use **//** to insert a Forward Slash in text.
+
+
+### Underlined Text
+
+For making text underlined within paragraphs, start specific portion with an Underscore (**\_**) symbol and end underlining with the same symbol. Use **\_\_** (double Underscore) to insert an Underscore within text.
+
+
+### Strike-through Text
+
+For making text striked-through within paragraphs, start specific portion with a Hyphen (**-**) symbol and end cutting with the same symbol. Use **--** (double Hyphen) to insert a Hyphen within text.
+
+
+### Images
+
+To attach images, following format is required, at the beginning of any line:
 
 ```
-
 %IM[Caption](full path with file extension)(Alternate text)
-
 ```
 
-**Links**: There are two types of links allowed for documentation purposes. First is any URL (e.g., https://ubrant.com), and the second one is to point towards documentation parts. Hence following formats are supported (in second format, all elements are optional except TEXT and Annotation, but when present they should be in specified sequence separated with commas):
+
+### Links
+
+There are two types of links allowed for documentation purposes. First is any URL (e.g., https://ubrant.com), and the second one is to point towards documentation parts. Hence following formats are supported (in second format, all elements are optional except TEXT and Annotation, but when present they should be in specified sequence separated with commas):
 
 ```
-
 %L1[TEXT][Annotation](URL)
 %L2[TEXT][Annotation](Major-ID, Minor-ID, Section-ID, Page-ID)
-
 ```
 
 ---
