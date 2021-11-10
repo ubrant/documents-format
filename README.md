@@ -250,7 +250,7 @@ Parameters' description is as follows:
 > Explanation
 >> ⟾ To describe about correct option
 
-Following is an example of defining a question:
+Following example defines a simple question:
 
 ```
 @Question
