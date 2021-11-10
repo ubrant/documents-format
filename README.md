@@ -135,9 +135,9 @@ Colon (**:**) symbol at the beginning of any line will denote beginning of parag
 
 ### Bold-faced Text
 
-For making text bold-faced within paragraphs, start bold-facing with **&start-bold;** and end bold-facing with **&end-bold;**.
+For making text bold-faced within paragraphs, start bold-facing with **&sb;** and end bold-facing with **&eb;**.
 
-> For example: This is a &start-bold;bold&end-bold; text
+> For example: This is a &sb;bold&eb; text
 > 
 > it will display as "This is a **bold** text"
 
