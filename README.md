@@ -130,7 +130,7 @@ Following heading formats are allowed to define headings of various levels:
 Headings denoting symbols should be at the beginning of any line, otherwise, they will be ignored. However, white-spaces are allowed before them.
 
 
-### Paragraphs
+### Paragraphs and Lists
 
 "**#Para:**" at beginning of any line will denote starting a paragraph. Whereby, all subsequent lines will be joined into one paragraph till any other element's symbol or next paragraph symbol for segregation.
 
@@ -141,6 +141,26 @@ Headings denoting symbols should be at the beginning of any line, otherwise, the
 > will be displayed as
 > 
 >> This is some paragraph text
+
+"**#List:**" at beginning of any line will denote starting an unordered list. Whereby, all subsequent lines will be joined into one unordered list till any other element's symbol or next list symbol.
+
+> For example:
+> 
+>> #List:
+>> 
+>> List Item A
+>> 
+>> List Item B
+>> 
+>> List Item C
+> 
+> will be displayed as
+> 
+>> * List Item A
+>> 
+>> * List Item B
+>> 
+>> * List Item C
 
 
 #### Bold-faced Text
