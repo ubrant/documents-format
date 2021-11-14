@@ -253,7 +253,7 @@ Questions can be mixed with normal flow of document, and can be separated in dif
 Parameters' description is as follows:
 
 > Difficulty Level
->> ⟾ **Easy** = , **Medium**, **Hard**
+>> ⟾ **Easy**, **Medium**, **Hard**
 
 > Question Text
 >> ⟾ Question being asked
