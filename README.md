@@ -165,7 +165,7 @@ Headings denoting symbols should be at the beginning of any line, otherwise, the
 
 #### Bold-faced Text
 
-For making text bold-faced within paragraphs enclose it within **Curly Braces** like **{text}**.
+For making text bold-faced within paragraphs and lists enclose it within **Curly Braces** like **{text}**.
 
 > For example:
 > 
@@ -178,7 +178,7 @@ For making text bold-faced within paragraphs enclose it within **Curly Braces** 
 
 #### Italicized Text
 
-For making text italicized within paragraphs enclose it between **Forward Slashes** like **/text/**.
+For making text italicized within paragraphs and lists enclose it between **Forward Slashes** like **/text/**.
 
 > For example:
 > 
@@ -202,19 +202,19 @@ To attach images, following format is required, at beginning of any line:
 
 ### Links
 
-There are two types of links allowed for documentation purposes:
+There are two types of links allowed in documentation:
 
-* First is any URL (e.g., https://ubrant.com), and
-* The second one is intended to point towards documentation parts.
+* First type of links is full URL (e.g., https://ubrant.com); and
+* The second one is intended to point towards documentation parts
 
-Hence following formats are supported:
+Hence following formats are supported (inside text elements):
 
 ```
 :Link-URL:[TEXT][HINT](URL)
 :Link-Site:[TEXT][HINT](Major-ID, Minor-ID, Section-ID, Page-ID)
 ```
 
->> In second format, all elements are optional except TEXT, but when present they should be in specified sequence separated with commas
+>> In second format, all elements are optional except TEXT (in that case, it'll point to home page), but when elements are present they should be in specified sequence separated with commas
 
 > For example:
 > 
@@ -234,7 +234,7 @@ Testing of user's knowledge can be done by requiring to answer questions at any 
 
 ```
 @Question
-    #Difficulty: Difficulty Level ID
+    #Difficulty: Difficulty Level
     #Text: Question Text
     #OptA: Option "A" Text
     #OptB: Option "B" Text
@@ -244,16 +244,16 @@ Testing of user's knowledge can be done by requiring to answer questions at any 
     #OptF: Option "F" Text (Optional)
     #OptG: Option "G" Text (Optional)
     #Attempts: Number of Allowed Attempts
-    #Answer: Correct Option
-    #Explanation: Text to Describe the Correct Option
+    #Answer: Correct Option(s)
+    #Explanation: Text to Describe the Correct Option(s)
 ```
 
 Questions can be mixed with normal flow of document, and can be separated in different dedicated pages - thereby, will be sorted per page identifiers.
 
 Parameters' description is as follows:
 
-> Difficulty Level ID
->> ⟾ **0** = Easy, **1** = Medium, **2** = Hard
+> Difficulty Level
+>> ⟾ **Easy** = , **Medium**, **Hard**
 
 > Question Text
 >> ⟾ Question being asked
@@ -274,7 +274,7 @@ Following example defines a simple question:
 
 ```
 @Question
-    #Difficulty: 0
+    #Difficulty: Easy
     #Text: Did Christopher Columbus invent America?
     #OptA: True
     #OptB: False
