@@ -214,7 +214,7 @@ Hence following formats are supported (inside text elements):
 :Link-Site:[TEXT][HINT](Major-ID, Minor-ID, Section-ID, Page-ID)
 ```
 
->> In second format, all elements are optional except TEXT (in that case, it'll point to home page), but when elements are present they should be in specified sequence separated with commas
+>> In second format, all elements are optional except TEXT and HINT (in that case, it'll point to home page), but when elements are present they should be in specified sequence separated with commas
 
 > For example:
 > 
