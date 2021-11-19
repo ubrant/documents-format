@@ -178,11 +178,11 @@ For making text bold-faced within paragraphs and lists enclose it within **Curly
 
 #### Italicized Text
 
-For making text italicized within paragraphs and lists enclose it between **Forward Slashes** like **/text/**.
+For making text italicized within paragraphs and lists enclose it between **Forward Slashes** and **Hyphen** like **/-text-/**.
 
 > For example:
 > 
->> #Para: This is some /italicized/ text
+>> #Para: This is some /-italicized-/ text
 > 
 > will be displayed as
 > 
