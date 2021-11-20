@@ -165,7 +165,7 @@ Headings denoting symbols should be at the beginning of any line, otherwise, the
 
 #### Bold-faced Text
 
-For making text bold-faced within paragraphs and lists enclose it within **Curly Braces** and **B** like **{B text}**.
+For making text bold-faced within paragraphs and lists enclose it within **Curly Braces** and **B / b** like **{B text}**.
 
 > For example:
 > 
@@ -178,7 +178,7 @@ For making text bold-faced within paragraphs and lists enclose it within **Curly
 
 #### Italicized Text
 
-For making text italicized within paragraphs and lists enclose it between **Curly Braces** and **I** like **{I text}**.
+For making text italicized within paragraphs and lists enclose it between **Curly Braces** and **I / i** like **{I text}**.
 
 > For example:
 > 
