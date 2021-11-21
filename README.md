@@ -230,6 +230,30 @@ Links can be placed anywhere inside text elements, as only TEXT will be placed a
 
 ---
 
+## Code
+
+"**#Code:**" at beginning of any line will denote starting a code-block. Whereby, all subsequent lines will be considered as the part of same code-block.
+
+> For example:
+> 
+>> #Code:
+>> 
+>> int a = 5;
+>> 
+>> int b = 6;
+>> 
+>> int sum = a + b;
+> 
+> will be displayed as
+> 
+```
+int a = 5;
+int b = 6;
+int sum = a + b;
+```
+
+---
+
 ## Questions
 
 Testing of user's knowledge can be done by requiring to answer questions at any time. For this purpose, following format is supported **inside a Page**:
