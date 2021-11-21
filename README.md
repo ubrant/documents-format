@@ -252,6 +252,8 @@ int b = 6;
 int sum = a + b;
 ```
 
+>> **Note:** Following part of code tag line will be skipped => so start code block from next line
+
 ---
 
 ## Questions
