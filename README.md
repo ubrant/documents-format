@@ -232,7 +232,7 @@ Links can be placed anywhere inside text elements, as only TEXT will be placed a
 
 ## Code
 
-"**#Code:**" at beginning of any line will denote starting a code-block. Whereby, all subsequent lines will be considered as the part of same code-block.
+"**#Code: language**" at beginning of any line will denote starting a code-block. Whereby, all subsequent lines will be considered as the part of same code-block.
 
 > For example:
 > 
@@ -252,7 +252,7 @@ int b = 6;
 int sum = a + b;
 ```
 
->> **Note:** Following part of code tag line will be skipped => so start code-block from next line
+>> **Note:** Following part of code tag line will define the coding language, so it can be skipped => start code-block from next line
 
 ---
 
