@@ -246,6 +246,7 @@ Links can be placed anywhere inside text elements, as only TEXT will be placed a
 > 
 > will be displayed as
 > 
+
 ```
 int a = 5;
 int b = 6;
@@ -253,6 +254,22 @@ int sum = a + b;
 ```
 
 >> **Note:** Following part of code tag line will define the coding language, so it can be skipped => start code-block from next line
+
+"**#Console:**" at beginning of any line will denote starting console output. Whereby, all subsequent lines will be considered as the part of same output.
+
+>> **Note:** Initial and ending blank lines will be trimmed and wont produce any output
+
+> For example:
+> 
+>> #Console:
+>> 
+>> C:\>dir
+> 
+> will be displayed as
+
+```
+C:\>dir
+```
 
 ---
 
