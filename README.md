@@ -20,6 +20,8 @@ Since, only **pure / plain text files** are required; Word Editors like _Microso
 
 
 
+
+
 ## Legibility Consideration
 
 ### White-space
@@ -30,6 +32,8 @@ Blank lines are hereby defined as lines without text, or having only white-space
 
 ### Comments
 Tilde (**~**) being first non-white-space letter on any line will make that line a comment; and line will be ignored in final output.
+
+
 
 
 
@@ -92,6 +96,8 @@ Following identifiers are defined and their respective purpose is also mentioned
 > **Important!** One page should be completed in one file.
 > 
 > This identifier will allow sorting of pages in ascending order within a section.
+
+
 
 
 
@@ -230,6 +236,9 @@ Links can be placed anywhere inside text elements, as only TEXT will be placed a
 
 ---
 
+
+
+
 ## Code
 
 "**#Code: language**" at beginning of any line will denote starting a code-block. Whereby, all subsequent lines will be considered as the part of same code-block.
@@ -272,6 +281,9 @@ C:\>dir
 ```
 
 ---
+
+
+
 
 ## Questions
 
@@ -331,6 +343,9 @@ Following example defines a simple question:
 >> If any text or other material is present on a page before or after the question, it will be dealt with as a separate entity -- not mixed with question itself
 
 ---
+
+
+
 
 ## End
 
