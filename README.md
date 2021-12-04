@@ -72,9 +72,9 @@ Following identifiers are defined and their respective purpose is also mentioned
 > 
 > For standardization and to avoid collissions (as of now), following Major IDs are assigned:
 > 
->> IDs ***100000 ➠ 199999*** are reserved for ***non-technical groups***
+>> IDs ***100000*** ➠ ***199999*** are reserved for ***non-technical*** groups
 >> 
->> IDs ***200000 ➠ 299999*** are reserved for ***technical groups***
+>> IDs ***200000*** ➠ ***299999*** are reserved for ***technical*** groups
 >
 > **Title** should be used only once in all the files for same Major ID, otherwise it will be picked up from first non-blank occurrence.
 
