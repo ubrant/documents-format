@@ -2,7 +2,7 @@
 
 Documentation is required to be written in **pure text files** with **specific format**, so as to enforce uniformity, use auto-generation of HTML, and later application of themes throughout the documentation.
 
-For easy management, supporting files can be kept with documentation. Thereby, auto-segregation of documentation files from others requires that documentation files be identified with file extension **.ubd** (for example: summary.ubd).
+For easy management, supporting files can be kept with documentation. Thereby, auto-segregation of documentation files from others requires that documentation files be identified with file extension ***.ubd*** (for example: summary.ubd).
 
 Files can be placed under any directory structure inside the same parent directory.
 
