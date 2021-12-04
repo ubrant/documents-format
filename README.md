@@ -10,12 +10,12 @@ Only the described format will be enough to produce valid documentation pages.
 
 Since, only **pure / plain text files** are required; Word Editors like _Microsoft Word_ and _Word-Pad_ are **not allowed** because they store text files in formatted binary / other formats. Following are a few examples of text editors that can be used for this purpose:
 
-> * Notepad
+> * Notepad - Available in Windows
 > * [Notepad++](https://notepad-plus-plus.org/downloads/)
 > * [VS Code](https://code.visualstudio.com/Download)
-> * vim
-> * gedit
-> * nano
+> * vim - Available in Linux distros
+> * gedit - Available in Linux distros
+> * nano - Available in Linux distros
 > * [Sublime Text](https://www.sublimetext.com/)
 
 
