@@ -24,6 +24,16 @@ Since, only *pure and plain text files* are required; Word Editors like *Microso
 
 
 
+&nbsp;
+&nbsp;
+<p align="center">&nbsp;&nbsp;⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⦾⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍&nbsp;&nbsp;</p>
+&nbsp;
+&nbsp;
+
+
+
+
+
 ## Legibility Considerations
 
 ### White-space
