@@ -126,15 +126,16 @@ It defines Section that contains one or many Pages under same Section ID, i.e., 
 > **Title** should be used only once in all the files for same Section ID, otherwise it will be picked up from first non-blank occurrence
 
 
+&nbsp;
+### Page Identifier
+
+It defines Page that contains content; this identifier allows sorting of pages in ascending order within a section, and has following format:
+
 ```
 @Page ID Title
 ```
 
-> Defines Page that contains content.
-> 
 > **Important!** One page should be completed in one file.
-> 
-> This identifier will allow sorting of pages in ascending order within a section.
 
 
 
