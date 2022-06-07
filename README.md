@@ -73,7 +73,7 @@ To provide late linking across files and auto-sequencing of content, numeric ide
 
 Each identifier, whenever & wherever placed, will mark beginning of that portion. Thereby, content can be distributed in separate files and later joined according to these identifiers. Numeric nature of these identifiers will allow automatic sorting, thereby _extreme care_ is required to avoid collissions amongst same types of identifiers under same levels of hierarchy - such collissions (if any) will produce unpredictable sequencing.
 
-> **For example**, identifier **1** can be given to Minor sections which have different Major section identifiers but should not be given to Minor sections under same Major section
+> *For example*, identifier **1** can be given to Minor sections which have different Major section identifiers but should not be given to Minor sections under same Major section
 
 Following identifiers are defined and their respective purposes are also mentioned (replace *ID* with a number):
 
