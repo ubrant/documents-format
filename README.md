@@ -98,7 +98,9 @@ It implies that any content coming after this identifier (in current file) will 
 > For standardization and to avoid collissions (as of now), following Major IDs are assigned:
 > 
 > IDs *100000* ➠ *199999* are reserved for *non-technical* groups
+> 
 > and
+> 
 > IDs *200000* ➠ *299999* are reserved for *technical* groups
 
 &nbsp;
