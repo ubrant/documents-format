@@ -55,7 +55,7 @@ Each identifier, whenever & wherever placed, will mark beginning of that portion
 
 > **For example**, identifier **1** can be given to Minor sections which have different Major section identifiers but should not be given to Minor sections under same Major section
 
-Following identifiers are defined and their respective purpose is also mentioned (replace ID with number):
+Following identifiers are defined and their respective purposes are also mentioned (replace *ID* with a number):
 
 
 ### Major Identifier
