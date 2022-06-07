@@ -38,13 +38,13 @@ Since, only *pure and plain text files* are required; Word Editors like *Microso
 
 
 &nbsp;
-### White-space
-For the purpose of this documentation, any combination of spaces (ASCII **32**) and tabs (ASCII **9**) are defined as white-space.
+### White-spaces
+For the purpose of this documentation, any combination of spaces (ASCII **32**) and tabs (ASCII **9**) are defined as white-spaces.
 
 
 &nbsp;
 ### Blank lines
-Blank lines are hereby defined as lines without text, or having only white-spaces. Blank lines will be ignored in process of documentation generation, they are only to serve the purpose of legibility.
+Blank lines are hereby defined as lines without any text, or having only white-spaces. Blank lines will be ignored in process of output generation, they only serve the purpose of legibility.
 
 
 &nbsp;
