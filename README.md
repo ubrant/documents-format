@@ -39,7 +39,7 @@ Tilde (**~**) being first non-white-space letter on any line will make that line
 
 
 
----
+<p align="center">&nbsp;&nbsp;⁌⦾⁍&nbsp;&nbsp;</p>
 
 
 
