@@ -36,6 +36,8 @@ Since, only *pure and plain text files* are required; Word Editors like *Microso
 
 ## Legibility Considerations
 
+To improve legibility for *.ubd* file writers / maintainers, following are considered:
+
 
 &nbsp;
 ### White-spaces
