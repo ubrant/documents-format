@@ -7,7 +7,7 @@ Files can be placed under any directory structure inside single parent directory
 
 
 
-
+&nbsp;
 ## Text Editors
 
 Since, only *pure and plain text files* are required; Word Editors like *Microsoft Word* and *Word-Pad* are *not allowed* because they store text files in formatted binary / other formats. Following are few examples of text editors that can be used for this purpose:
@@ -36,12 +36,18 @@ Since, only *pure and plain text files* are required; Word Editors like *Microso
 
 ## Legibility Considerations
 
+
+&nbsp;
 ### White-space
 For the purpose of this documentation, any combination of spaces (ASCII **32**) and tabs (ASCII **9**) are defined as white-space.
 
+
+&nbsp;
 ### Blank lines
 Blank lines are hereby defined as lines without text, or having only white-spaces. Blank lines will be ignored in process of documentation generation, they are only to serve the purpose of legibility.
 
+
+&nbsp;
 ### Comments
 Tilde (**~**) being first non-white-space letter on any line will make that line a comment; and line will be ignored in final output.
 
@@ -72,6 +78,7 @@ Each identifier, whenever & wherever placed, will mark beginning of that portion
 Following identifiers are defined and their respective purposes are also mentioned (replace *ID* with a number):
 
 
+&nbsp;
 ### Major Identifier
 
 It has following format:
@@ -93,6 +100,7 @@ It has following format:
 > **Title** should be used only once in all the files for same Major ID, otherwise it will be picked up from first non-blank occurrence.
 
 
+&nbsp;
 ### Minor Identifier
 
 It has following format:
@@ -108,6 +116,7 @@ It has following format:
 > **Title** should be used only once in all the files for same Minor ID, otherwise it will be picked up from first non-blank occurrence.
 
 
+&nbsp;
 ### Section Identifier
 
 It has following format:
@@ -148,6 +157,7 @@ It has following format:
 ## Content / Data Format
 
 
+&nbsp;
 ### Sections
 
 Following format is allowed for formatting section start:
@@ -166,6 +176,7 @@ $BG: Section Background Image File - full path with extension
 Section denoting symbol should be at the beginning of a line, otherwise, the section symbol will be ignored. However, white-spaces are allowed before section symbol.
 
 
+&nbsp;
 ### Headings
 
 Following heading formats are allowed to define headings of various levels:
@@ -182,6 +193,7 @@ Following heading formats are allowed to define headings of various levels:
 Headings denoting symbols should be at the beginning of any line, otherwise, they will be ignored. However, white-spaces are allowed before them.
 
 
+&nbsp;
 ### Paragraphs and Lists
 
 "**#Para:**" at beginning of any line will denote starting a paragraph. Whereby, all subsequent lines will be joined into one paragraph till any other element's symbol or next paragraph symbol for segregation.
@@ -215,6 +227,7 @@ Headings denoting symbols should be at the beginning of any line, otherwise, the
 >> * List Item C
 
 
+&nbsp;
 #### Bold-faced Text
 
 For making text bold-faced within paragraphs and lists enclose it within **Curly Braces** and **B / b** like **{B text}**.
@@ -228,6 +241,7 @@ For making text bold-faced within paragraphs and lists enclose it within **Curly
 >> This is some **bold-faced** text
 
 
+&nbsp;
 #### Italicized Text
 
 For making text italicized within paragraphs and lists enclose it between **Curly Braces** and **I / i** like **{I text}**.
@@ -241,6 +255,7 @@ For making text italicized within paragraphs and lists enclose it between **Curl
 >> This is some _italicized_ text
 
 
+&nbsp;
 ### Images
 
 To attach images, following format is required, at beginning of any line:
@@ -252,6 +267,7 @@ To attach images, following format is required, at beginning of any line:
 >> When only image file name with extension is provided then same directory as documentation file will be used for picking-up the image
 
 
+&nbsp;
 ### Links
 
 There are two types of links allowed in documentation:
@@ -294,6 +310,8 @@ Links can be placed anywhere inside text elements, as only TEXT will be placed a
 
 ## Code
 
+
+&nbsp;
 "**#Code: language**" at beginning of any line will denote starting a code-block. Whereby, all subsequent lines will be considered as the part of same code-block.
 
 > For example:
@@ -317,6 +335,8 @@ int sum = a + b;
 
 >> **Note:** Following part of code tag line will define the coding language, so it can be skipped => start code-block from next line
 
+
+&nbsp;
 "**#Console:**" at beginning of any line will denote starting console output. Whereby, all subsequent lines will be considered as the part of same output.
 
 >> **Note:** Initial and ending blank lines will be trimmed and wont produce any output
