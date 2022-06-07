@@ -51,7 +51,7 @@ Tilde (**~**) being first non-white-space letter on any line will make that line
 
 &nbsp;
 &nbsp;
-<p align="center">&nbsp;&nbsp;⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⦾⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍&nbsp;&nbsp;</p>
+<p align="center">&nbsp;&nbsp;⁌⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌⁌⦾⁍⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍⁍&nbsp;&nbsp;</p>
 &nbsp;
 &nbsp;
 
@@ -137,7 +137,7 @@ It has following format:
 
 &nbsp;
 &nbsp;
-<p align="center">&nbsp;&nbsp;⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⦾⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍&nbsp;&nbsp;</p>
+<p align="center">&nbsp;&nbsp;⁌⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌⁌⦾⁍⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍⁍&nbsp;&nbsp;</p>
 &nbsp;
 &nbsp;
 
@@ -284,7 +284,7 @@ Links can be placed anywhere inside text elements, as only TEXT will be placed a
 
 &nbsp;
 &nbsp;
-<p align="center">&nbsp;&nbsp;⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⦾⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍&nbsp;&nbsp;</p>
+<p align="center">&nbsp;&nbsp;⁌⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌⁌⦾⁍⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍⁍&nbsp;&nbsp;</p>
 &nbsp;
 &nbsp;
 
@@ -339,7 +339,7 @@ C:\>dir
 
 &nbsp;
 &nbsp;
-<p align="center">&nbsp;&nbsp;⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⦾⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍&nbsp;&nbsp;</p>
+<p align="center">&nbsp;&nbsp;⁌⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌⁌⦾⁍⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍⁍&nbsp;&nbsp;</p>
 &nbsp;
 &nbsp;
 
@@ -410,7 +410,7 @@ Following example defines a simple question:
 
 &nbsp;
 &nbsp;
-<p align="center">&nbsp;&nbsp;⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⁌⦾⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍⁍&nbsp;&nbsp;</p>
+<p align="center">&nbsp;&nbsp;⁌⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌ ⁌⁌⁌⦾⁍⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍ ⁍⁍⁍&nbsp;&nbsp;</p>
 &nbsp;
 &nbsp;
 
