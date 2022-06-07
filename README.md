@@ -81,22 +81,22 @@ Following identifiers are defined and their respective purposes are also mention
 &nbsp;
 ### Major Identifier
 
-It has following format:
+It defines Major Group that contains one or many Minor Groups (with same Major ID), and has following format:
 
 ```
 @Major ID Title
 ```
 
-> Defines Major Group that contains one or many Minor Groups (with same Major ID).
-> 
-> It means that any content coming after this identifier (in current file) will be grouped with content that might be in some other file with same ID.
-> 
+It implies that any content coming after this identifier (in current file) will be grouped with content that might be in some other file with same ID.
+
 > For standardization and to avoid collissions (as of now), following Major IDs are assigned:
 > 
->> IDs ***100000*** ➠ ***199999*** are reserved for ***non-technical*** groups
->> 
->> IDs ***200000*** ➠ ***299999*** are reserved for ***technical*** groups
->
+> IDs ***100000*** ➠ ***199999*** are reserved for ***non-technical*** groups
+> and
+> IDs ***200000*** ➠ ***299999*** are reserved for ***technical*** groups
+
+&nbsp;
+
 > **Title** should be used only once in all the files for same Major ID, otherwise it will be picked up from first non-blank occurrence.
 
 
