@@ -6,13 +6,13 @@ Files can be placed under any directory structure inside single parent directory
 
 Since, only *pure and plain text files* are required; Word Editors like *Microsoft Word* and *Word-Pad* are *not allowed* because they store text files in formatted binary / other formats. Following are few examples of text editors that can be used for this purpose:
 
-    > * Notepad - Available in Windows
-    > * [Notepad++](https://notepad-plus-plus.org/downloads/)
-    > * [VS Code](https://code.visualstudio.com/Download)
-    > * vim - Available in Linux distros
-    > * gedit - Available in Linux distros
-    > * nano - Available in Linux distros
-    > * [Sublime Text](https://www.sublimetext.com/)
+  > * Notepad - Available in Windows
+  > * [Notepad++](https://notepad-plus-plus.org/downloads/)
+  > * [VS Code](https://code.visualstudio.com/Download)
+  > * vim - Available in Linux distros
+  > * gedit - Available in Linux distros
+  > * nano - Available in Linux distros
+  > * [Sublime Text](https://www.sublimetext.com/)
 
 
 
