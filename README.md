@@ -1,10 +1,8 @@
 # Documentation Format
 
-The documentation in this format (***UBD***) is required being written in **pure text files** with **special text elements**, so as to enforce uniformity, automatically generating HTML, and later application of themes throughout the scope of documentation. Following described format is deemed enough (for now) to produce valid documentation pages. Efforts shall be made that further improvements in format should not disrupt existing documentation.
+The documentation in this format (***UBD***) is required being written in *pure text files* with *special text elements*, so as to enforce uniformity, automatically generating HTML, and later application of themes throughout the scope of documentation. Following described format is deemed enough (for now) to produce valid documentation pages. Efforts shall be made that further improvements in format should not disrupt existing documentation.
 
-For easy management, supporting files can be kept with documentation. Thereby, auto-segregation of documentation files from others requires that documentation files be identified with ***.ubd*** extension (for example: *summary.ubd*).
-
-Files can be placed under any directory structure inside single parent directory.
+Files can be placed under any directory structure inside single parent directory. For easy management, supporting files can be kept with documentation. Thereby, auto-segregation of documentation files from others requires that documentation files be identified with ***.ubd*** extension (for example: *summary.ubd*).
 
 Since, only **pure / plain text files** are required; Word Editors like _Microsoft Word_ and _Word-Pad_ are **not allowed** because they store text files in formatted binary / other formats. Following are a few examples of text editors that can be used for this purpose:
 
