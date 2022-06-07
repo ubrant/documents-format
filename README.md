@@ -103,16 +103,14 @@ It implies that any content coming after this identifier (in current file) will 
 &nbsp;
 ### Minor Identifier
 
-It has following format:
+It defines Minor Group that contains one or many Sections under same Minor ID, and has following format:
 
 ```
 @Minor ID Title
 ```
 
-> Defines Minor Group that contains one or many Sections under same Minor ID.
-> 
-> This identifier is intended to group same kind of sections under a single ID, no matter the number of files they are scattered in.
->
+This identifier is intended to group same kind of sections under a single ID, no matter the number of files they are scattered over.
+
 > **Title** should be used only once in all the files for same Minor ID, otherwise it will be picked up from first non-blank occurrence.
 
 
