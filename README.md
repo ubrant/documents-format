@@ -1,8 +1,8 @@
 # Documentation Format
 
-The documentation in this format (***UBD***) is required being written in *pure text files* with *special text elements*, so as to enforce uniformity, automatically generating HTML, and later application of themes throughout the scope of documentation. Following described format is deemed enough (for now) to produce valid documentation pages. Efforts shall be made that further improvements in format should not disrupt existing documentation.
+The documentation in this format (*UBD*) is required being written in *pure text files* with *special text elements*, so as to enforce uniformity, automatically generating HTML, and later application of themes throughout the scope of documentation. Following described format is deemed enough (for now) to produce valid documentation pages. Efforts shall be made that further improvements in format should not disrupt existing documentation.
 
-Files can be placed under any directory structure inside single parent directory. For easy management, supporting files can be kept with documentation. Thereby, auto-segregation of documentation files from others requires that documentation files be identified with ***.ubd*** extension (for example: *summary.ubd*).
+Files can be placed under any directory structure inside single parent directory. For easy management, supporting files can be kept with documentation. Thereby, auto-segregation of documentation files from others requires that documentation files be identified with *.ubd* extension (for example: *summary.ubd*).
 
 
 
@@ -39,7 +39,7 @@ Since, only *pure and plain text files* are required; Word Editors like *Microso
 
 &nbsp;
 ### White-spaces
-For the purpose of this documentation, any combination of spaces (ASCII **32**) and tabs (ASCII **9**) are defined as white-spaces.
+For the purpose of this documentation, any combination of spaces (*ASCII-32*) and tabs (*ASCII-9*) are defined as white-spaces.
 
 
 &nbsp;
@@ -49,7 +49,7 @@ Blank lines are hereby defined as lines without any text, or having only white-s
 
 &nbsp;
 ### Comments
-Tilde (**~**) being first non-white-space letter on any line will make that line a comment; and line will be ignored in final output.
+Tilde (**~**) being first non-white-space letter in any line will make that line a comment; and line will be ignored in final output.
 
 
 
