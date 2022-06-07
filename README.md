@@ -97,7 +97,7 @@ It implies that any content coming after this identifier (in current file) will 
 
 &nbsp;
 
-> **Title** should be used only once in all the files for same Major ID, otherwise it will be picked up from first non-blank occurrence.
+> **Title** should be used only once in all the files for same Major ID, otherwise it will be picked up from first non-blank occurrence
 
 
 &nbsp;
@@ -111,21 +111,19 @@ It defines Minor Group that contains one or many Sections under same Minor ID, a
 
 This identifier is intended to group same kind of sections under a single ID, no matter the number of files they are scattered over.
 
-> **Title** should be used only once in all the files for same Minor ID, otherwise it will be picked up from first non-blank occurrence.
+> **Title** should be used only once in all the files for same Minor ID, otherwise it will be picked up from first non-blank occurrence
 
 
 &nbsp;
 ### Section Identifier
 
-It has following format:
+It defines Section that contains one or many Pages under same Section ID, i.e., it is a group of Pages, and has following format:
 
 ```
 @Section ID Title
 ```
 
-> Defines Section that contains one or many Pages under same Section ID - a group of Pages.
->
-> **Title** should be used only once in all the files for same Section ID, otherwise it will be picked up from first non-blank occurrence.
+> **Title** should be used only once in all the files for same Section ID, otherwise it will be picked up from first non-blank occurrence
 
 
 ```
