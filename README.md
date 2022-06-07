@@ -67,13 +67,13 @@ Tilde (**~**) being first non-white-space letter in any line will make that line
 
 ## Identifiers (IDs)
 
-To provide late linking across files and auto-sequencing of content, numeric identifiers (**whole numbers**) are required to be placed **at the beginning of files**. Leading white-spaces as well as any number of white spaces before ID and Title are allowed as long as specific order is maintained.
+To provide late linking across files and auto-sequencing of content, numeric identifiers (*whole numbers*) are required to be placed *at the beginning of files*. Leading white-spaces as well as any number of white spaces before ID and Title are allowed as long as specific order is maintained.
 
 > **Note:** Items (majors, minors, sections and pages) with negative identifiers will be filtered-out during output generation
 
 Each identifier, whenever & wherever placed, will mark beginning of that portion. Thereby, content can be distributed in separate files and later joined according to these identifiers. Numeric nature of these identifiers will allow automatic sorting, thereby _extreme care_ is required to avoid collissions amongst same types of identifiers under same levels of hierarchy - such collissions (if any) will produce unpredictable sequencing.
 
-> *For example*, identifier **1** can be given to Minor sections which have different Major section identifiers but should not be given to Minor sections under same Major section
+> *For example*, identifier *1* can be assigned to Minor sections which have different Major section identifiers but should not be assigned to Minor sections under same Major section
 
 Following identifiers are defined and their respective purposes are also mentioned (replace *ID* with a number):
 
@@ -91,13 +91,13 @@ It implies that any content coming after this identifier (in current file) will 
 
 > For standardization and to avoid collissions (as of now), following Major IDs are assigned:
 > 
-> IDs ***100000*** ➠ ***199999*** are reserved for ***non-technical*** groups
+> IDs *100000* ➠ *199999* are reserved for *non-technical* groups
 > and
-> IDs ***200000*** ➠ ***299999*** are reserved for ***technical*** groups
+> IDs *200000* ➠ *299999* are reserved for *technical* groups
 
 &nbsp;
 
-> **Title** should be used only once in all the files for same Major ID, otherwise it will be picked up from first non-blank occurrence
+> *Title* should be used only once in all the files for same Major ID, otherwise it will be picked up from first non-blank occurrence
 
 
 &nbsp;
@@ -111,7 +111,7 @@ It defines Minor Group that contains one or many Sections under same Minor ID, a
 
 This identifier is intended to group same kind of sections under a single ID, no matter the number of files they are scattered over.
 
-> **Title** should be used only once in all the files for same Minor ID, otherwise it will be picked up from first non-blank occurrence
+> *Title* should be used only once in all the files for same Minor ID, otherwise it will be picked up from first non-blank occurrence
 
 
 &nbsp;
@@ -123,7 +123,7 @@ It defines Section that contains one or many Pages under same Section ID, i.e., 
 @Section ID Title
 ```
 
-> **Title** should be used only once in all the files for same Section ID, otherwise it will be picked up from first non-blank occurrence
+> *Title* should be used only once in all the files for same Section ID, otherwise it will be picked up from first non-blank occurrence
 
 
 &nbsp;
@@ -397,7 +397,7 @@ Questions can be mixed with normal flow of document, and can be separated in dif
 Parameters' description is as follows:
 
 > Difficulty Level
->> ⟾ **Easy**, **Medium**, **Hard**
+>> ⟾ *Easy*, *Medium* or *Hard*
 
 > Question Text
 >> ⟾ Question being asked
@@ -406,10 +406,10 @@ Parameters' description is as follows:
 >> ⟾ Text to display as option, blank text will disappear option
 
 > Number of Allowed Attempts
->> ⟾ Number (e.g., **1** if repetition is not allowed)
+>> ⟾ Number (e.g., *1* if repetition is not allowed)
 
 > Correct Option
->> ⟾ Option (e.g., **B** if Option B is correct)
+>> ⟾ Option (e.g., *B* if Option B is correct)
 
 > Explanation
 >> ⟾ To describe about correct option
