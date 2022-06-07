@@ -1,6 +1,6 @@
 # Documentation Format
 
-Documentation is required to be written in **pure text files** with **specific format**, so as to enforce uniformity, use auto-generation of HTML, and later application of themes throughout the documentation.
+The documentation in this format (**UBD**) is required being written in **pure text files** with **specific formatting**, so as to enforce uniformity, apply auto-generation of HTML, and later application of themes throughout the documentation.
 
 For easy management, supporting files can be kept with documentation. Thereby, auto-segregation of documentation files from others requires that documentation files be identified with file extension ***.ubd*** (for example: summary.ubd).
 
