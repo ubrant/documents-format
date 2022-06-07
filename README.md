@@ -192,7 +192,7 @@ $BG: Section Background Image File - full path with extension
 
 &nbsp;
 
->> If full path to image file is not provided (i.e., only file name with extension is provided) then directory of documentation file will be used for picking-up the image
+> If full path to image file is not provided (i.e., only file name with extension is provided) then directory of documentation file will be used for picking-up the image
 
 Section denoting symbol should be at the beginning of a line, otherwise, the section symbol will be ignored. However, white-spaces are allowed before section symbol.
 
@@ -223,36 +223,36 @@ Headings denoting symbols should be at the beginning of any line, otherwise, the
 
 "**#Para:**" at beginning of any line will denote starting a paragraph. Whereby, all subsequent lines will be joined into one paragraph till any other element's symbol or next paragraph symbol for segregation.
 
-> For example:
-> 
->> #Para: This is some paragraph text
-> 
-> will be displayed as
-> 
->> This is some paragraph text
+For example:
+
+> #Para: This is some paragraph text
+
+will be displayed as
+
+> This is some paragraph text
 
 
 &nbsp;
 
 "**#List:**" at beginning of any line will denote starting an unordered list. Whereby, all subsequent lines will be joined into one unordered list till any other element's symbol or next list symbol.
 
-> For example:
+For example:
+
+> #List:
 > 
->> #List:
->> 
->> List Item A
->> 
->> List Item B
->> 
->> List Item C
+> List Item A
 > 
-> will be displayed as
+> List Item B
 > 
->> * List Item A
->> 
->> * List Item B
->> 
->> * List Item C
+> List Item C
+
+will be displayed as
+
+> * List Item A
+> 
+> * List Item B
+> 
+> * List Item C
 
 
 &nbsp;
@@ -260,13 +260,13 @@ Headings denoting symbols should be at the beginning of any line, otherwise, the
 
 For making text bold-faced within paragraphs and lists enclose it within **Curly Braces** and **B / b** like **{B text}**.
 
-> For example:
-> 
->> #Para: This is some {B bold-faced} text
-> 
-> will be displayed as
-> 
->> This is some **bold-faced** text
+For example:
+
+> #Para: This is some {B bold-faced} text
+
+will be displayed as
+
+> This is some **bold-faced** text
 
 
 &nbsp;
@@ -274,13 +274,13 @@ For making text bold-faced within paragraphs and lists enclose it within **Curly
 
 For making text italicized within paragraphs and lists enclose it between **Curly Braces** and **I / i** like **{I text}**.
 
-> For example:
-> 
->> #Para: This is some {I italicized} text
-> 
-> will be displayed as
-> 
->> This is some _italicized_ text
+For example:
+
+> #Para: This is some {I italicized} text
+
+will be displayed as
+
+> This is some _italicized_ text
 
 
 &nbsp;
@@ -296,7 +296,7 @@ To attach images, following format is required, at beginning of any line:
 
 &nbsp;
 
->> When only image file name with extension is provided then same directory as documentation file will be used for picking-up the image
+> When only image file name with extension is provided then same directory as documentation file will be used for picking-up the image
 
 
 &nbsp;
@@ -318,15 +318,15 @@ Hence following formats are supported (inside text elements):
 
 &nbsp;
 
->> In second format, all elements are optional except TEXT and HINT (in that case, it'll point to home page), but when elements are present they should be in specified sequence separated with commas
+> In second format, all elements are optional except TEXT and HINT (in that case, it'll point to home page), but when elements are present they should be in specified sequence separated with commas
 
-> For example:
-> 
->> #Para: Click :Link-URL:\[here\]\[here\](https://ubrant.com) for learning amazing things
-> 
-> will be displayed as
-> 
->> Click [here](https://ubrant.com) for learning amazing things
+For example:
+
+> #Para: Click :Link-URL:\[here\]\[here\](https://ubrant.com) for learning amazing things
+
+will be displayed as
+
+> Click [here](https://ubrant.com) for learning amazing things
 
 Links can be placed anywhere inside text elements, as only TEXT will be placed alongside other text in regular flow of document content.
 
@@ -348,18 +348,17 @@ Links can be placed anywhere inside text elements, as only TEXT will be placed a
 
 "**#Code: language**" at beginning of any line will denote starting a code-block. Whereby, all subsequent lines will be considered as the part of same code-block.
 
-> For example:
+For example:
+
+> #Code:
 > 
->> #Code:
->> 
->> int a = 5;
->> 
->> int b = 6;
->> 
->> int sum = a + b;
+> int a = 5;
 > 
-> will be displayed as
+> int b = 6;
 > 
+> int sum = a + b;
+
+will be displayed as
 
 &nbsp;
 
@@ -371,22 +370,22 @@ int sum = a + b;
 
 &nbsp;
 
->> **Note:** Following part of code tag line will define the coding language, so it can be skipped => start code-block from next line
+> **Note:** Following part of code tag line will define the coding language, so it can be skipped => start code-block from next line
 
 
 &nbsp;
 
 "**#Console:**" at beginning of any line will denote starting console output. Whereby, all subsequent lines will be considered as the part of same output.
 
->> **Note:** Initial and ending blank lines will be trimmed and wont produce any output
+> **Note:** Initial and ending blank lines will be trimmed and wont produce any output
 
-> For example:
+For example:
+
+> #Console:
 > 
->> #Console:
->> 
->> C:\>dir
-> 
-> will be displayed as
+> C:\>dir
+
+will be displayed as
 
 &nbsp;
 
@@ -437,27 +436,27 @@ Questions can be mixed with normal flow of document, and can be separated in dif
 Parameters' description is as follows:
 
 > Difficulty Level
->> ⟾ *Easy*, *Medium* or *Hard*
+> ⟾ *Easy*, *Medium* or *Hard*
 
 &nbsp;
 > Question Text
->> ⟾ Question being asked
+> ⟾ Question being asked
 
 &nbsp;
 > Option "-" Text
->> ⟾ Text to display as option, blank text will disappear option
+> ⟾ Text to display as option, blank text will disappear option
 
 &nbsp;
 > Number of Allowed Attempts
->> ⟾ Number (e.g., *1* if repetition is not allowed)
+> ⟾ Number (e.g., *1* if repetition is not allowed)
 
 &nbsp;
 > Correct Option
->> ⟾ Option (e.g., *B* if Option B is correct)
+> ⟾ Option (e.g., *B* if Option B is correct)
 
 &nbsp;
 > Explanation
->> ⟾ To describe about correct option
+> ⟾ To describe about correct option
 
 Following example defines a simple question:
 
@@ -476,7 +475,7 @@ Following example defines a simple question:
 
 &nbsp;
 
->> If any text or other material is present on a page before or after the question, it will be dealt with as a separate entity -- not mixed with question itself
+> If any text or other material is present on a page before or after the question, it will be dealt with as a separate entity -- not mixed with question itself
 
 
 
