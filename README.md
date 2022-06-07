@@ -83,9 +83,13 @@ Following identifiers are defined and their respective purposes are also mention
 
 It defines Major Group that contains one or many Minor Groups (with same Major ID), and has following format:
 
+&nbsp;
+
 ```
 @Major ID Title
 ```
+
+&nbsp;
 
 It implies that any content coming after this identifier (in current file) will be grouped with content that might be in some other file with same ID.
 
@@ -105,9 +109,13 @@ It implies that any content coming after this identifier (in current file) will 
 
 It defines Minor Group that contains one or many Sections under same Minor ID, and has following format:
 
+&nbsp;
+
 ```
 @Minor ID Title
 ```
+
+&nbsp;
 
 This identifier is intended to group same kind of sections under a single ID, no matter the number of files they are scattered over.
 
@@ -119,9 +127,13 @@ This identifier is intended to group same kind of sections under a single ID, no
 
 It defines Section that contains one or many Pages under same Section ID, i.e., it is a group of Pages, and has following format:
 
+&nbsp;
+
 ```
 @Section ID Title
 ```
+
+&nbsp;
 
 > *Title* should be used only once in all the files for same Section ID, otherwise it will be picked up from first non-blank occurrence
 
@@ -131,9 +143,13 @@ It defines Section that contains one or many Pages under same Section ID, i.e., 
 
 It defines Page that contains content; this identifier allows sorting of pages in ascending order within a section, and has following format:
 
+&nbsp;
+
 ```
 @Page ID Title
 ```
+
+&nbsp;
 
 > **Important!** One page should be completed in one file.
 
@@ -159,6 +175,8 @@ It defines Page that contains content; this identifier allows sorting of pages i
 
 Following format is allowed for formatting section start:
 
+&nbsp;
+
 ```
 $H1: Section Heading
 $H2: Section Sub-heading
@@ -167,6 +185,8 @@ $QT: Motivational Quotation Text
 $QB: Motivational Quotation Author
 $BG: Section Background Image File - full path with extension
 ```
+
+&nbsp;
 
 >> If full path to image file is not provided (i.e., only file name with extension is provided) then directory of documentation file will be used for picking-up the image
 
@@ -178,6 +198,8 @@ Section denoting symbol should be at the beginning of a line, otherwise, the sec
 
 Following heading formats are allowed to define headings of various levels:
 
+&nbsp;
+
 ```
 #H1: Heading Text - Biggest Heading
 #H2: Heading Text
@@ -186,6 +208,8 @@ Following heading formats are allowed to define headings of various levels:
 #H5: Heading Text
 #H6: Heading Text - Smallest Heading
 ```
+
+&nbsp;
 
 Headings denoting symbols should be at the beginning of any line, otherwise, they will be ignored. However, white-spaces are allowed before them.
 
@@ -263,9 +287,13 @@ For making text italicized within paragraphs and lists enclose it between **Curl
 
 To attach images, following format is required, at beginning of any line:
 
+&nbsp;
+
 ```
 #Image: [Caption Text](full path with file name and extension)
 ```
+
+&nbsp;
 
 >> When only image file name with extension is provided then same directory as documentation file will be used for picking-up the image
 
@@ -280,10 +308,14 @@ There are two types of links allowed in documentation:
 
 Hence following formats are supported (inside text elements):
 
+&nbsp;
+
 ```
 :Link-URL:[TEXT][HINT](URL)
 :Link-Site:[TEXT][HINT](Major-ID, Minor-ID, Section-ID, Page-ID)
 ```
+
+&nbsp;
 
 >> In second format, all elements are optional except TEXT and HINT (in that case, it'll point to home page), but when elements are present they should be in specified sequence separated with commas
 
@@ -331,11 +363,15 @@ Links can be placed anywhere inside text elements, as only TEXT will be placed a
 > will be displayed as
 > 
 
+&nbsp;
+
 ```
 int a = 5;
 int b = 6;
 int sum = a + b;
 ```
+
+&nbsp;
 
 >> **Note:** Following part of code tag line will define the coding language, so it can be skipped => start code-block from next line
 
@@ -353,6 +389,8 @@ int sum = a + b;
 >> C:\>dir
 > 
 > will be displayed as
+
+&nbsp;
 
 ```
 C:\>dir
@@ -376,6 +414,8 @@ C:\>dir
 
 Testing of user's knowledge can be done by requiring to answer questions at any time. For this purpose, following format is supported **inside a Page**:
 
+&nbsp;
+
 ```
 @Question
     #Difficulty: Difficulty Level
@@ -391,6 +431,8 @@ Testing of user's knowledge can be done by requiring to answer questions at any 
     #Answer: Correct Option(s)
     #Explanation: Text to Describe the Correct Option(s)
 ```
+
+&nbsp;
 
 Questions can be mixed with normal flow of document, and can be separated in different dedicated pages - thereby, will be sorted per page identifiers.
 
@@ -416,6 +458,8 @@ Parameters' description is as follows:
 
 Following example defines a simple question:
 
+&nbsp;
+
 ```
 @Question
     #Difficulty: Easy
@@ -426,6 +470,8 @@ Following example defines a simple question:
     #Answer: B
     #Explanation: America was there to be discovered, not to be invented by any humanbeing
 ```
+
+&nbsp;
 
 >> If any text or other material is present on a page before or after the question, it will be dealt with as a separate entity -- not mixed with question itself
 
