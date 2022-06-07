@@ -5,6 +5,9 @@ The documentation in this format (***UBD***) is required being written in *pure 
 Files can be placed under any directory structure inside single parent directory. For easy management, supporting files can be kept with documentation. Thereby, auto-segregation of documentation files from others requires that documentation files be identified with ***.ubd*** extension (for example: *summary.ubd*).
 
 
+
+
+
 ## Text Editors
 
 Since, only *pure and plain text files* are required; Word Editors like *Microsoft Word* and *Word-Pad* are *not allowed* because they store text files in formatted binary / other formats. Following are few examples of text editors that can be used for this purpose:
@@ -21,7 +24,7 @@ Since, only *pure and plain text files* are required; Word Editors like *Microso
 
 
 
-## Legibility Consideration
+## Legibility Considerations
 
 ### White-space
 For the purpose of this documentation, any combination of spaces (ASCII **32**) and tabs (ASCII **9**) are defined as white-space.
