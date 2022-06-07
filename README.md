@@ -318,6 +318,7 @@ Links can be placed anywhere inside text elements, as only TEXT will be placed a
 
 
 &nbsp;
+
 "**#Code: language**" at beginning of any line will denote starting a code-block. Whereby, all subsequent lines will be considered as the part of same code-block.
 
 > For example:
@@ -343,6 +344,7 @@ int sum = a + b;
 
 
 &nbsp;
+
 "**#Console:**" at beginning of any line will denote starting console output. Whereby, all subsequent lines will be considered as the part of same output.
 
 >> **Note:** Initial and ending blank lines will be trimmed and wont produce any output
