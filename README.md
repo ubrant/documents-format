@@ -20,11 +20,6 @@ Since, only *pure and plain text files* are required; Word Editors like *Microso
 
 
 
----
-
-
-
-
 
 ## Legibility Consideration
 
