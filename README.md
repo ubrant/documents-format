@@ -196,6 +196,8 @@ Headings denoting symbols should be at the beginning of any line, otherwise, the
 &nbsp;
 ### Paragraphs and Lists
 
+
+&nbsp;
 "**#Para:**" at beginning of any line will denote starting a paragraph. Whereby, all subsequent lines will be joined into one paragraph till any other element's symbol or next paragraph symbol for segregation.
 
 > For example:
@@ -206,6 +208,8 @@ Headings denoting symbols should be at the beginning of any line, otherwise, the
 > 
 >> This is some paragraph text
 
+
+&nbsp;
 "**#List:**" at beginning of any line will denote starting an unordered list. Whereby, all subsequent lines will be joined into one unordered list till any other element's symbol or next list symbol.
 
 > For example:
