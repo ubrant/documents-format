@@ -49,11 +49,11 @@ Tilde (**~**) being first non-white-space letter on any line will make that line
 
 To provide late linking across files and auto-sequencing of content, numeric identifiers (**whole numbers**) are required to be placed **at the beginning of files**. Leading white-spaces as well as any number of white spaces before ID and Title are allowed as long as specific order is maintained.
 
->> **Note:** Items (majors, minors, sections and pages) with negative identifiers will be filtered-out during output generation
+> **Note:** Items (majors, minors, sections and pages) with negative identifiers will be filtered-out during output generation
 
 Each identifier, whenever & wherever placed, will mark beginning of that portion. Thereby, content can be distributed in separate files and later joined according to these identifiers. Numeric nature of these identifiers will allow automatic sorting, thereby _extreme care_ is required to avoid collissions amongst same types of identifiers under same levels of hierarchy - such collissions (if any) will produce unpredictable sequencing.
 
->> **For example**, identifier **1** can be given to Minor sections which have different Major section identifiers but should not be given to Minor sections under same Major section
+> **For example**, identifier **1** can be given to Minor sections which have different Major section identifiers but should not be given to Minor sections under same Major section
 
 Following identifiers are defined and their respective purpose is also mentioned (replace ID with number):
 
