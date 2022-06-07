@@ -6,7 +6,7 @@ For easy management, supporting files can be kept with documentation. Thereby, a
 
 Files can be placed under any directory structure inside single parent directory.
 
-Only the described format will be enough to produce valid documentation pages.
+Following described format is deemed enough (for now) to produce valid documentation pages. Efforts shall be made that further improvements in format should not disrupt existing documentation.
 
 Since, only **pure / plain text files** are required; Word Editors like _Microsoft Word_ and _Word-Pad_ are **not allowed** because they store text files in formatted binary / other formats. Following are a few examples of text editors that can be used for this purpose:
 
