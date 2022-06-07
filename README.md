@@ -58,6 +58,10 @@ Each identifier, whenever & wherever placed, will mark beginning of that portion
 Following identifiers are defined and their respective purpose is also mentioned (replace ID with number):
 
 
+### Major Identifier
+
+It has following format:
+
 ```
 @Major ID Title
 ```
@@ -75,6 +79,10 @@ Following identifiers are defined and their respective purpose is also mentioned
 > **Title** should be used only once in all the files for same Major ID, otherwise it will be picked up from first non-blank occurrence.
 
 
+### Minor Identifier
+
+It has following format:
+
 ```
 @Minor ID Title
 ```
@@ -85,6 +93,10 @@ Following identifiers are defined and their respective purpose is also mentioned
 >
 > **Title** should be used only once in all the files for same Minor ID, otherwise it will be picked up from first non-blank occurrence.
 
+
+### Section Identifier
+
+It has following format:
 
 ```
 @Section ID Title
