@@ -385,7 +385,7 @@ For example:
 
 > #Console:
 > 
-> C:\>dir
+> C:\\>dir
 
 will be displayed as
 
